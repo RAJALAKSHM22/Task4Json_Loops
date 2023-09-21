@@ -1,0 +1,3 @@
+let datum=[{'family':{'father':{'name':'Numjun','age':['30'],'hobby':['vlog making','Image editing'],'income':['1.5L/m']},'mother':{ 'name':'Camila Cabello','age':['27'],'hobby':['vlog making','Image editing','cooking'],'income':['1.5L/m'] },'son':{ 'name':'Lee Dong','age':['6'],'hobby':['playing'],'income':['0'] },'daugther':{'name':'Shin Hye','age':['5'],'hobby':['coloring'],'income':['0']}}},{'Office':{'CEO':{'name':'Kim','age':['58'],'YoJ':['2007'],'income':['4.5L/m']},'President':{'name':'jin','age':['33'],'YoJ':['2015'],'income':['10.5L/m'] },'chairPerson':{'name':'Lee Sung','age':['36'],'YoJ':['2012'],'income':['15.8L/m']}}}]
+
+console.log(datum);
