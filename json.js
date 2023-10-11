@@ -2,7 +2,283 @@
 console.log("PROGRAME OF FOR LOOPING!! ")  //this console for title 
 
 
-let datum=[{'family':{'father':{'Name':'Numjun','age':['30'],'hobby':['vlog making','Image editing'],'income':['1.5L/m']},'mother':{ 'Name':'Camila Cabello','age':['27'],'hobby':['vlog making','Image editing','cooking'],'income':['1.5L/m'] },'son':{ 'Name':'Lee Dong','age':['6'],'hobby':['playing'],'income':['0'] },'daugther':{'Name':'Shin Hye','age':['5'],'hobby':['coloring'],'income':['0']}}},{'Office':{'CEO':{'Name':'Kim','age':['58'],'YoJ':['2007'],'income':['4.5L/m']},'President':{'Name':'Jin','age':['33'],'YoJ':['2015'],'income':['10.5L/m'] },'chairPerson':{'Name':'Lee Sung','age':['36'],'YoJ':['2012'],'income':['15.8L/m']}}}]
+let datum=[
+{"distric1":{"town1":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":40,"singleHouse":24,"appartment":16},"s3":{"totalHouse":48,"singleHouse":20,"appartment":28},"s4":{"totalHouse":38,"singleHouse":12,"appartment":26}},
+"area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+"area":"3,80,999 meter sq.",
+"unusedArea":"55,648 meter sq."
+},
+        "town2":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+"area":"3,80,999 meter sq.",
+"unusedArea":"55,648 meter sq."
+},
+        "town3":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+},
+        "town4":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+},
+    "city1":{  
+        "town1":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+},
+        "town2":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+"area":"3,80,999 meter sq.",
+"unusedArea":"55,648 meter sq."
+}
+    },
+    "city2":{ 
+        "town1":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+},
+        "town2":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+"area":"3,80,999 meter sq.",
+"unusedArea":"55,648 meter sq."
+},
+        "town3":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+}
+     }}},
+
+    {"distric2":{"town1":{  "area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+    },
+    "town2":{  "area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+    },
+    "town3":{  "area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+    },
+    "city1":{  
+        "town1":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+},
+        "town2":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+}
+    },
+    "city2":{
+        "town1":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+},
+        "town2":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+"area":"3,80,999 meter sq.",
+"unusedArea":"55,648 meter sq."
+}
+    },
+    "village1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},
+    "s2":{"totalBuilding":18,"singleHouse":12,"shops":6},
+    "s3":{"totalBuilding":18,"singleHouse":12,"shops":6},
+    "s4":{"totalBuilding":18,"singleHouse":12,"shops":6},
+    "sa1":{"totalBuilding":18,"singleHouse":12,"shops":6},
+    "sa2":{"totalBuilding":18,"singleHouse":12,"shops":6},
+    "sa3":{"totalBuilding":18,"singleHouse":12,"shops":6},
+    "sa4":{"totalBuilding":18,"singleHouse":12,"shops":6},
+    "govArea":{"Industries":11,"hospital":{"G.H":2,"Clinic":4},"temples":{"gov":3,"non_gov":12}},
+"area":"3,80,999 meter sq.",
+"unusedArea":"55,648 meter sq."       
+     },
+     "village1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},
+     "s2":{"totalBuilding":18,"singleHouse":12,"shops":6},
+     "s3":{"totalBuilding":18,"singleHouse":12,"shops":6},
+     "s4":{"totalBuilding":18,"singleHouse":12,"shops":6},
+     "sa1":{"totalBuilding":18,"singleHouse":12,"shops":6},
+     "sa2":{"totalBuilding":18,"singleHouse":12,"shops":6},
+     "sa3":{"totalBuilding":18,"singleHouse":12,"shops":6},
+     "sa4":{"totalBuilding":18,"singleHouse":12,"shops":6},
+     "govArea":{"Industries":11,"hospital":{"G.H":2,"Clinic":4},"temples":{"gov":3,"non_gov":12}},
+ "area":"3,80,999 meter sq.",
+ "unusedArea":"55,648 meter sq."       
+      }
+ 
+}},
+
+    {"distric3":{"town1":{ "area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+    },
+    "town2":{ "area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+    },
+    "town3":{ "area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+    },
+    "city1":{
+        "town1":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+},
+        "town2":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+},
+        "town3":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+"govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+"area":"3,80,999 meter sq.",
+"unusedArea":"55,648 meter sq."
+},
+    },
+    "city2":{
+        "town1":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+},
+        "town2":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+},
+        "town3":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+}
+    },
+    "city3":{
+        "town1":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+},
+"town2":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+},
+"town3":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+},
+"town4":{"area1":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area2":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area3":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"s2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12},"s4":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "area4":{"s1":{"totalHouse":38,"singleHouse":26,"appartment":12},"S2":{"totalHouse":38,"singleHouse":26,"appartment":12},"s3":{"totalHouse":38,"singleHouse":26,"appartment":12}},
+    "govArea":{"industries":5,"smallIndustries":11,"hospital":{"G.H":2,"gov_Aided":4},"temples":{"gov":3,"non_gov":12}},
+    "area":"3,80,999 meter sq.",
+    "unusedArea":"55,648 meter sq."
+},
+    }}},
+
+]
+
 
 
 console.log("FOR LOOP");   //this console for title 
@@ -31,3 +307,16 @@ console.log("FOR-EACH LOOP" ); //this console for title
 // for-each Loop
 
 datum.forEach((Data)=>console.log(Data));
+
+
+
+
+
+
+
+
+
+
+
+
+
